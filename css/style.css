@@ -1,0 +1,88 @@
+#logo img {
+  width: 15%;
+}
+.center_text {
+  text-align: center;
+}
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: gray;
+  padding: 10px 0 12px;
+}
+.nav_menu ul {
+  list-style-type: none;
+  padding: 12px 0 12px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+#banner img {
+  width: 49%;
+}
+#infor_content {
+  display: flex;
+  padding: 0 3% 0;
+}
+.highlight_text {
+  color: #89c3c7;
+}
+#service_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 20px 10px;
+}
+.service_items {
+  flex: 1;
+  margin: 10px;
+  border: 2px solid #f97306;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.service_items a {
+  padding: 10px 20px 10px;
+  background-color: #0d9da0;
+}
+.accessories-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.accessories-section div {
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  flex-basis: 22%;
+}
+.accessories-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.accessories-section h4 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.accessories-section p {
+  color: orange;
+  font-weight: bold;
+}
+#footer {
+  background-color: gray;
+  padding: 20px auto;
+  text-align: center;
+  color: white;
+}
+
+/* flex-grow : 1 cho phep ptu chiem het khong gian trong con lai
+   flex-shrink: 1 cho phep ptu co the co lai khi khong gian khong du
+   flex-basic: 0% chieu rong can ban ban dau
+   => flex: 1 gian deu cho tat ca cac phan tu 
+
+*/
